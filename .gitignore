@@ -5,3 +5,10 @@ __pycache__/
 .env
 .ipynb_checkpoints/
 .streamlit/secrets.toml
+.vscode/
+Lib/
+Scripts/
+etc/
+share/
+__pycache__/
+*.pyc

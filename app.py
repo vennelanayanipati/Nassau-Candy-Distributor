@@ -49,7 +49,7 @@ table {
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r"C:\Users\venne\Downloads\Final Nassau Candy Distributor Project-2.csv")
+    df = pd.read_csv("Final Nassau Candy Distributor Project-2.csv")
     df["order_date"] = pd.to_datetime(df["order_date"])
     df["ship_date"] = pd.to_datetime(df["ship_date"])
      # Calculate lead time in full days
